@@ -1,19 +1,9 @@
 <template>
     <div class="justify-content-center">
-        <!-- {{--Contact button--}}
-        <a style="  text-decoration: none;" href="mailto:rickschijvenaars@gmail.com">
-            <div class="uk-card uk-card-default uk-card-hover btn-fixed">
-                <div class="uk-card-body btn-cta" >
-                    <span class="uk-text-meta uk-margin-remove-top">Want to know more?</span>
-                    <h3 class="uk-card-title uk-button-text uk-margin-remove-bottom uk-margin-remove-top">JUST ASK! <span uk-icon="icon: comment"></span></h3>
-                </div>
-            </div>
-        </a> -->
         <span class="d-none d-lg-flex projects-title text-white monofont"> 
 
         </span>
         <div class="row content-margin">
-            <!--flip-card for project-->
             <router-link :to="{ name: 'project', params: { title: project.title, project: project }}" v-for="project in projects" :key="project.id" class="col-sm-6 col-md-4 col-xl-3 p-0">
                 <div class="flip-card animated zoomIn">
                     <div class="flip-card-inner">
