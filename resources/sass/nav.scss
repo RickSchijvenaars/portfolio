@@ -1,0 +1,67 @@
+//mainnav
+nav#mainnav{
+  height: 80px;
+  top: -80px;
+  transition: top 0.3s ease-in;
+  li{
+    min-width:150px;
+   .logo {
+      position: relative;
+      top: 40px;
+      width: 130px;
+      content: 'RS';
+      font-family: 'Righteous', cursive !important;
+      font-size: 70px !important;
+      color: black !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 130px;
+      border: 3px solid #bab9b9;
+      border-radius: 50%;
+      background-color: #d6d6d6;
+      z-index: 1;
+    }
+    #arrow{
+      width: 75.5px;
+      transform: translate(50%, -35%);
+      animation-name: movingArrow;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      polygon{
+        fill: #D6D6D6;
+      }
+    }
+    @keyframes movingArrow {
+      0%   {margin-top:0;}
+      25%  {margin-top:20px;}
+      50%  {margin-top:0;}
+      75%  {margin-top:20px;}
+      100% {margin-top:0;}
+    }
+  }
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+  .active {
+    display: block;
+  }
+}
+@media (min-width: 991px){
+  nav#mainnav:hover{
+    top: 0;
+    transition: top 0.3s ease-out;
+  }
+}
+
+//Medianav
+.uk-dropdown-bottom-left{
+  margin-top: 0px!important;
+}

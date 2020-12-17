@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@font-face {
+    font-family: PixelFont;
+    src: url('/fonts/pixelfont.ttf');
+}
+
+@font-face {
+    font-family: MonoFont;
+    src: url('/fonts/monofont.ttf');
+}
+
+.monofont {
+    font-family: MonoFont;
+}
+
+hr {
+    border-top: 1px solid rgba(white, 0.1) !important
+}
+
+.typed-cursor {
+    font-size: xx-large;
+}
+
+.content {
+    &-item {
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 20px;
+        background-color: #1E1E1E;
+    }
+}
