@@ -1,7 +1,7 @@
 <template>
     <div class="justify-content-center">
         <span class="d-none d-lg-flex projects-title text-white monofont"> 
-
+            Projects.
         </span>
         <div class="row content-margin">
             <router-link :to="{ name: 'project', params: { title: project.title, project: project }}" v-for="project in projects" :key="project.id" class="col-sm-6 col-md-4 col-xl-3 p-0">
@@ -36,21 +36,9 @@ export default {
         loadProjects(){
             axios.get('../api/projects').then(response => this.projects = response.data);
         },
-        typeMessage(){
-            new Typed(".projects-title", {
-                strings: [
-                    "Projects.", 
-                ],
-                typeSpeed: 50,
-                smartBackspace: true,
-                backSpeed: 50,
-                showCursor: false,
-            });
-        }
     },
     mounted() {
         this.loadProjects();
-        this.typeMessage();
     }
 }
 </script>
@@ -116,6 +104,7 @@ export default {
     }
     .projects-title {
         position: absolute;
+        left: 0;
         top: 0;
         height: 60px;
         align-items: center;

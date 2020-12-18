@@ -2018,6 +2018,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {};
@@ -2307,20 +2310,10 @@ __webpack_require__.r(__webpack_exports__);
       axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('../api/projects').then(function (response) {
         return _this.projects = response.data;
       });
-    },
-    typeMessage: function typeMessage() {
-      new Typed(".projects-title", {
-        strings: ["Projects."],
-        typeSpeed: 50,
-        smartBackspace: true,
-        backSpeed: 50,
-        showCursor: false
-      });
     }
   },
   mounted: function mounted() {
     this.loadProjects();
-    this.typeMessage();
   }
 });
 
@@ -2376,7 +2369,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".profile-picture[data-v-31f13d5f] {\n  border: 2px solid black;\n}\n@media only screen and (min-width: 992px) {\n.content-margin[data-v-31f13d5f] {\n    margin-top: 60px;\n}\n}", ""]);
+exports.push([module.i, ".profile-picture[data-v-31f13d5f] {\n  border: 2px solid black;\n}\n.about-title[data-v-31f13d5f] {\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 60px;\n  align-items: center;\n  font-size: 1.5rem;\n  padding-left: 0.8rem;\n}\n@media only screen and (min-width: 992px) {\n.content-margin[data-v-31f13d5f] {\n    margin-top: 60px;\n}\n}", ""]);
 
 // exports
 
@@ -2452,7 +2445,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".flip-card[data-v-01d54f10] {\n  background-color: transparent;\n  height: 400px;\n  -webkit-perspective: 1000px;\n          perspective: 1000px;\n}\n.flip-card-inner[data-v-01d54f10] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: -webkit-transform 0.6s;\n  transition: transform 0.6s;\n  transition: transform 0.6s, -webkit-transform 0.6s;\n  -webkit-transform-style: preserve-3d;\n          transform-style: preserve-3d;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n}\n.flip-card-front[data-v-01d54f10] {\n  color: black;\n  z-index: 2;\n  height: 100%;\n  background-position: center;\n  background-size: cover;\n}\n.flip-card-front-overlay[data-v-01d54f10] {\n  background-color: rgba(0, 0, 0, 0.4);\n}\n.flip-card-back[data-v-01d54f10] {\n  padding: 20px;\n  background-color: #1E1E1E;\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n  z-index: 1;\n  color: white;\n}\n.flip-card-front[data-v-01d54f10], .flip-card-back[data-v-01d54f10] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n.flip-card-title[data-v-01d54f10] {\n  color: #E1E1E1;\n}\n.flip-card-description[data-v-01d54f10] {\n  color: #9B9B9B;\n}\n.flip-card:hover .flip-card-inner[data-v-01d54f10] {\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n}\n.imagecontainer[data-v-01d54f10] {\n  overflow: hidden;\n  padding: 0 !important;\n  margin: 10px !important;\n  position: relative;\n  height: 300px;\n  background-position: center;\n  background-size: cover;\n  border: 2px solid black;\n}\n.projects-title[data-v-01d54f10] {\n  position: absolute;\n  top: 0;\n  height: 60px;\n  align-items: center;\n  font-size: 1.5rem;\n  padding-left: 0.8rem;\n}\n@media only screen and (min-width: 992px) {\n.content-margin[data-v-01d54f10] {\n    margin-top: 60px;\n}\n}", ""]);
+exports.push([module.i, ".flip-card[data-v-01d54f10] {\n  background-color: transparent;\n  height: 400px;\n  -webkit-perspective: 1000px;\n          perspective: 1000px;\n}\n.flip-card-inner[data-v-01d54f10] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: -webkit-transform 0.6s;\n  transition: transform 0.6s;\n  transition: transform 0.6s, -webkit-transform 0.6s;\n  -webkit-transform-style: preserve-3d;\n          transform-style: preserve-3d;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n}\n.flip-card-front[data-v-01d54f10] {\n  color: black;\n  z-index: 2;\n  height: 100%;\n  background-position: center;\n  background-size: cover;\n}\n.flip-card-front-overlay[data-v-01d54f10] {\n  background-color: rgba(0, 0, 0, 0.4);\n}\n.flip-card-back[data-v-01d54f10] {\n  padding: 20px;\n  background-color: #1E1E1E;\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n  z-index: 1;\n  color: white;\n}\n.flip-card-front[data-v-01d54f10], .flip-card-back[data-v-01d54f10] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n.flip-card-title[data-v-01d54f10] {\n  color: #E1E1E1;\n}\n.flip-card-description[data-v-01d54f10] {\n  color: #9B9B9B;\n}\n.flip-card:hover .flip-card-inner[data-v-01d54f10] {\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n}\n.imagecontainer[data-v-01d54f10] {\n  overflow: hidden;\n  padding: 0 !important;\n  margin: 10px !important;\n  position: relative;\n  height: 300px;\n  background-position: center;\n  background-size: cover;\n  border: 2px solid black;\n}\n.projects-title[data-v-01d54f10] {\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 60px;\n  align-items: center;\n  font-size: 1.5rem;\n  padding-left: 0.8rem;\n}\n@media only screen and (min-width: 992px) {\n.content-margin[data-v-01d54f10] {\n    margin-top: 60px;\n}\n}", ""]);
 
 // exports
 
@@ -4206,8 +4199,14 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container content-margin" }, [
-    _c("div", { staticClass: "row" }, [
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "span",
+      { staticClass: "d-none d-lg-flex about-title text-white monofont" },
+      [_vm._v(" \n        About me.\n    ")]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "row content-margin" }, [
       _c("div", { staticClass: "col-md-8" }, [
         _c("div", { staticClass: "content-item" }, [
           _c("p", { staticClass: "h1 title d-inline monofont" }),
@@ -4789,9 +4788,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "justify-content-center" }, [
-    _c("span", {
-      staticClass: "d-none d-lg-flex projects-title text-white monofont"
-    }),
+    _c(
+      "span",
+      { staticClass: "d-none d-lg-flex projects-title text-white monofont" },
+      [_vm._v(" \n        Projects.\n    ")]
+    ),
     _vm._v(" "),
     _c(
       "div",

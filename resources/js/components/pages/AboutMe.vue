@@ -1,6 +1,9 @@
 <template>
-    <div class="container content-margin">
-        <div class="row">
+    <div class="container">
+        <span class="d-none d-lg-flex about-title text-white monofont"> 
+            About me.
+        </span>
+        <div class="row content-margin">
             <div class="col-md-8">
                 <div class="content-item">
                     <p class="h1 title d-inline monofont">
@@ -111,6 +114,16 @@ export default {
     &-picture {
         border: 2px solid black;
     }
+}
+
+.about-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-left: 0.8rem;
 }
 
 @media only screen and (min-width: 992px) {
