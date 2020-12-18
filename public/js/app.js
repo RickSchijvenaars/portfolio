@@ -4619,7 +4619,7 @@ var render = function() {
           _vm._v(" "),
           _c("hr"),
           _vm._v(" "),
-          _c("p", [
+          _c("p", { domProps: { innerHTML: _vm._s(_vm.rawHtml) } }, [
             _vm._v(
               "\n                    " +
                 _vm._s(_vm.project.detail_description) +
