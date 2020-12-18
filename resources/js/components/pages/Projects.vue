@@ -4,7 +4,7 @@
             Projects.
         </span>
         <div class="row content-margin">
-            <router-link :to="{ name: 'project', params: { title: project.title, project: project }}" v-for="project in projects.reverse()" :key="project.id" class="col-sm-6 col-md-4 col-xl-3 p-0">
+            <router-link :to="{ name: 'project', params: { title: project.title, project: project }}" v-for="project in sortedProjects" :key="project.id" class="col-sm-6 col-md-4 col-xl-3 p-0">
                 <div class="flip-card animated zoomIn">
                     <div class="flip-card-inner">
                         <div class="flip-card-front" v-bind:style="{ backgroundImage: 'url(/images/' + project.source + ')'}">
@@ -30,6 +30,7 @@ export default {
     data() {
         return {
             projects: [],
+            sortedProjects: [],
         }
     },
     methods: {
@@ -39,6 +40,7 @@ export default {
     },
     mounted() {
         this.loadProjects();
+        this.sortedProjects = projects.reverse();
     }
 }
 </script>

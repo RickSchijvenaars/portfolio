@@ -2300,7 +2300,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      projects: []
+      projects: [],
+      sortedProjects: []
     };
   },
   methods: {
@@ -2314,6 +2315,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   mounted: function mounted() {
     this.loadProjects();
+    this.sortedProjects = projects.reverse();
   }
 });
 
@@ -4800,7 +4802,7 @@ var render = function() {
     _c(
       "div",
       { staticClass: "row content-margin" },
-      _vm._l(_vm.projects.reverse(), function(project) {
+      _vm._l(_vm.sortedProjects, function(project) {
         return _c(
           "router-link",
           {
