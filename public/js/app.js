@@ -4557,11 +4557,12 @@ var render = function() {
                   " "
               ),
               _c("br"),
-              _vm._v(
-                "\n                        " +
-                  _vm._s(_vm.project.link) +
-                  "\n                    "
-              )
+              _vm._v(" "),
+              _vm.project.link
+                ? _c("a", { attrs: { href: _vm.project.link } }, [
+                    _vm._v(_vm._s(_vm.project.link))
+                  ])
+                : _vm._e()
             ])
           ]),
           _vm._v(" "),

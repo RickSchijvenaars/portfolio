@@ -11,7 +11,7 @@
                     <div class="col-12">
                         <div class="text-break content-item">
                             {{ project.languages }} <br>
-                            {{ project.link }}
+                            <a v-if="project.link" v-bind:href="project.link">{{ project.link }}</a>
                         </div>
                     </div>
                     <div class="col-12">
