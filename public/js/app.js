@@ -2241,7 +2241,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -4619,13 +4618,9 @@ var render = function() {
           _vm._v(" "),
           _c("hr"),
           _vm._v(" "),
-          _c("p", { domProps: { innerHTML: _vm._s(_vm.rawHtml) } }, [
-            _vm._v(
-              "\n                    " +
-                _vm._s(_vm.project.detail_description) +
-                "\n                "
-            )
-          ])
+          _c("p", {
+            domProps: { innerHTML: _vm._s(_vm.project.detail_description) }
+          })
         ])
       ])
     ]),
@@ -4805,7 +4800,7 @@ var render = function() {
     _c(
       "div",
       { staticClass: "row content-margin" },
-      _vm._l(_vm.projects, function(project) {
+      _vm._l(_vm.projects.reverse(), function(project) {
         return _c(
           "router-link",
           {

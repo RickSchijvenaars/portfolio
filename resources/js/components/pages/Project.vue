@@ -38,8 +38,7 @@
                         {{ project.description }}
                     </p>
                     <hr>
-                    <p v-html="rawHtml">
-                        {{ project.detail_description }}
+                    <p v-html="project.detail_description">
                     </p>
                 </div>
             </div>
