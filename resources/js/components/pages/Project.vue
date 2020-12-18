@@ -10,7 +10,7 @@
                     </div>
                     <div class="col-12">
                         <div class="text-break content-item">
-                            {{ project.languages }}
+                            {{ project.languages }} <br>
                             {{ project.link }}
                         </div>
                     </div>

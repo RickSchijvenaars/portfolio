@@ -4554,7 +4554,11 @@ var render = function() {
               _vm._v(
                 "\n                        " +
                   _vm._s(_vm.project.languages) +
-                  "\n                        " +
+                  " "
+              ),
+              _c("br"),
+              _vm._v(
+                "\n                        " +
                   _vm._s(_vm.project.link) +
                   "\n                    "
               )
