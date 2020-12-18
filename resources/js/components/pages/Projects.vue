@@ -40,7 +40,7 @@ export default {
     },
     mounted() {
         this.loadProjects();
-        this.sortedProjects = projects.reverse();
+        this.sortedProjects = this.projects.reverse();
     }
 }
 </script>
