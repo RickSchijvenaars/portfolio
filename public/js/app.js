@@ -21711,9 +21711,9 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container content-margin" }, [
     _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-4" }, [
+      _c("div", { staticClass: "col-md-4 order-2 order-md-1" }, [
         _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-12" }, [
+          _c("div", { staticClass: "col-12 d-none d-md-block" }, [
             _c("div", { staticClass: "content-item" }, [
               _c("img", {
                 staticClass: "img-fluid",
@@ -21771,7 +21771,7 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-8" }, [
+      _c("div", { staticClass: "col-md-8 order-1 order-md-2" }, [
         _c("div", { staticClass: "content-item" }, [
           _c("p", { staticClass: "h1" }, [
             _vm._v(
