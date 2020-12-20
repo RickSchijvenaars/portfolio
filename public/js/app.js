@@ -2021,6 +2021,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {};
@@ -21398,7 +21400,7 @@ var render = function() {
             ),
             _c("br"),
             _vm._v(
-              "\n                    I really loved to do it and to see how I created something with code which became a real, useable website. That is the reason why I chose studying it."
+              "\n                    I really loved to do it and to see how I created something with code which became a real, useable website. That is the reason I chose studying it."
             ),
             _c("br"),
             _vm._v(" "),
@@ -21410,18 +21412,15 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\n                    In my spare time I like to go to the gym, visit/work at parties and festivals or game with friends."
+              "\n                    In my spare time I like to go to the gym, work at/visit parties and festivals or game with friends."
             ),
             _c("br"),
             _vm._v(" "),
             _c("br"),
-            _vm._v(" "),
-            _c("i", [_vm._v("Study")]),
-            _c("br"),
-            _vm._v("\n                    CMGT is based on the method "),
+            _vm._v("\n                    My study is based on the method '"),
             _c("i", [_vm._v("learning by doing")]),
             _vm._v(
-              ", which results in continuously running individual and group projects. These projects vary in subject and techniques and are based on real problems or situations and sometimes on behalf of real clients. Often the description of such project is only a problem or a subject and some requirements the final product needs to meet. "
+              "', which results in continuously running individual and group projects. These projects vary in subject and techniques and are based on real problems or situations and sometimes on behalf of real clients. Often the description of such project is only a problem or a subject and some requirements the final product needs to meet. "
             ),
             _c("br"),
             _vm._v(
@@ -21438,9 +21437,6 @@ var render = function() {
             _c("br"),
             _vm._v(" "),
             _c("br"),
-            _vm._v(" "),
-            _c("i", [_vm._v("Internship")]),
-            _c("br"),
             _vm._v(
               "\n                    The first half of the third year of my study I did an internship. In the years before I experienced that I really liked the front-end part of digitial products. I liked the things I could create with CSS and JavaScript and I experimented some with Vue.js. "
             ),
@@ -21451,20 +21447,64 @@ var render = function() {
             _c("br"),
             _vm._v(" "),
             _c("br"),
-            _vm._v(" "),
-            _c("i", [_vm._v("Now")]),
+            _vm._v(
+              "\n                    The second half of my third year I had the chance to choose and create my own project. I wanted to use this opportunity to combine my biggest hobby, the festival culture, with my discipline."
+            ),
+            _c("br"),
+            _vm._v(
+              "\n                    I developed my own concept, Craver, a mobile application for festivalvisitors to keep track of the festivals they have been and to meet other people with the same passion. This entire half year I spent working on this concept."
+            ),
+            _c("br"),
+            _vm._v(
+              "\n                    More information about Craver can be found at "
+            ),
+            _c(
+              "u",
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "text-white text-decoration-none",
+                    attrs: { to: "/projects" }
+                  },
+                  [_vm._v("my projects")]
+                )
+              ],
+              1
+            ),
+            _c("br"),
+            _vm._v(".\n                    "),
             _c("br"),
             _vm._v(
               "\n                    Currently I am in the last year of my study. The first half of this year exists of doing a minor. Here I chose to expand my knowledge and to get to know more about a completely different discipline; Dance Industry. "
             ),
             _c("br"),
             _vm._v(
-              "\n                    The choice to do this minor is based on one of my biggest hobbies; festivals. I love festivals, the ambiance at parties, people and techno music. Before the coronapandemic you could find me there every weekend."
+              "\n                    The choice to do this minor was once again based on one of my biggest hobbies; festivals. I love festivals, the ambiance at parties, people and techno music. Before the coronapandemic you could find me there every weekend."
             ),
             _c("br"),
             _vm._v(
-              "\n                    So.. I started with this minor exactly in the coronapandemic, when there were no more parties allowed.. This was not what I chose this minor for, but my developing skills and knowledge came in handy here, because we had to organize an event online now. For this project I created a website where the event took place, people were sent logincodes and on the website they could find a livestream, timetable, activities at certain times and videocalls with other visitors.\n                "
-            )
+              "\n                    So.. I started with this minor exactly in the coronapandemic, when there were no more parties allowed.. This was not what I chose this minor for, but my developing skills and knowledge came in handy here, because we had to organize an event online now. For this project I created a website where the event took place, people were sent logincodes and on the website they could find a livestream, timetable, activities and interaction with other visitors."
+            ),
+            _c("br"),
+            _vm._v(
+              "\n                    More information about this event can be found at "
+            ),
+            _c(
+              "u",
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "text-white text-decoration-none",
+                    attrs: { to: "/projects" }
+                  },
+                  [_vm._v("my projects")]
+                )
+              ],
+              1
+            ),
+            _vm._v(".\n                ")
           ])
         ])
       ]),
@@ -21734,9 +21774,11 @@ var render = function() {
               _c("br"),
               _vm._v(" "),
               _vm.project.link != "-"
-                ? _c("a", { attrs: { href: _vm.project.link } }, [
-                    _vm._v(_vm._s(_vm.project.link))
-                  ])
+                ? _c(
+                    "a",
+                    { attrs: { target: "_blank", href: _vm.project.link } },
+                    [_vm._v(_vm._s(_vm.project.link))]
+                  )
                 : _vm._e()
             ])
           ]),

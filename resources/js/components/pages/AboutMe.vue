@@ -13,26 +13,28 @@
                     </p>
                     <p>
                         Currently I am {{age}} years old, living and studying in Rotterdam. I am studying CMGT (Creative Media & Game Technologies) at Rotterdam University of Applied Science. Before I started studying I finished VWO at high school. The most interesting and fun class I took there was computer science. I had to create my own website with HTML, CSS and a bit of Php. <br>
-                        I really loved to do it and to see how I created something with code which became a real, useable website. That is the reason why I chose studying it.<br>
+                        I really loved to do it and to see how I created something with code which became a real, useable website. That is the reason I chose studying it.<br>
                         <br>
                         Some of my personality traits are being social and calm, which are good qualities while working independently as well as in a team. I like sharing my knowledge and to learn from others. Building beautiful digital products is my passion.<br>
                         <br>
-                        In my spare time I like to go to the gym, visit/work at parties and festivals or game with friends.<br>
+                        In my spare time I like to go to the gym, work at/visit parties and festivals or game with friends.<br>
                         <br>
-                        <i>Study</i><br>
-                        CMGT is based on the method <i>learning by doing</i>, which results in continuously running individual and group projects. These projects vary in subject and techniques and are based on real problems or situations and sometimes on behalf of real clients. Often the description of such project is only a problem or a subject and some requirements the final product needs to meet. <br>
+                        My study is based on the method '<i>learning by doing</i>', which results in continuously running individual and group projects. These projects vary in subject and techniques and are based on real problems or situations and sometimes on behalf of real clients. Often the description of such project is only a problem or a subject and some requirements the final product needs to meet. <br>
                         Actually everything is up to me or my team; doing research to find the real problem, picking the target audience, brainstorming, designing, prototyping, testing and of course developing the product. <br>
                         <br>
                         Because I learned how to go through this whole process every time, I am not just a regular developer. Besides developing, I also have experience with target audiences, brainstorming and designing. At CMGT they call me a '<i>Creative Developer</i>'. <br>
                         <br>
-                        <i>Internship</i><br>
                         The first half of the third year of my study I did an internship. In the years before I experienced that I really liked the front-end part of digitial products. I liked the things I could create with CSS and JavaScript and I experimented some with Vue.js. <br>
                         I chose to focus myself more on front-end during this internship and I did a front-end internship at 23G in Rotterdam. Here I worked on various projects, mostly HTML/SASS/Vue.js, and learned a lot from their workflow.<br>
                         <br>
-                        <i>Now</i><br>
+                        The second half of my third year I had the chance to choose and create my own project. I wanted to use this opportunity to combine my biggest hobby, the festival culture, with my discipline.<br>
+                        I developed my own concept, Craver, a mobile application for festivalvisitors to keep track of the festivals they have been and to meet other people with the same passion. This entire half year I spent working on this concept.<br>
+                        More information about Craver can be found at <u><router-link class="text-white text-decoration-none" to="/projects">my projects</router-link></u><br>.
+                        <br>
                         Currently I am in the last year of my study. The first half of this year exists of doing a minor. Here I chose to expand my knowledge and to get to know more about a completely different discipline; Dance Industry. <br>
-                        The choice to do this minor is based on one of my biggest hobbies; festivals. I love festivals, the ambiance at parties, people and techno music. Before the coronapandemic you could find me there every weekend.<br>
-                        So.. I started with this minor exactly in the coronapandemic, when there were no more parties allowed.. This was not what I chose this minor for, but my developing skills and knowledge came in handy here, because we had to organize an event online now. For this project I created a website where the event took place, people were sent logincodes and on the website they could find a livestream, timetable, activities at certain times and videocalls with other visitors.
+                        The choice to do this minor was once again based on one of my biggest hobbies; festivals. I love festivals, the ambiance at parties, people and techno music. Before the coronapandemic you could find me there every weekend.<br>
+                        So.. I started with this minor exactly in the coronapandemic, when there were no more parties allowed.. This was not what I chose this minor for, but my developing skills and knowledge came in handy here, because we had to organize an event online now. For this project I created a website where the event took place, people were sent logincodes and on the website they could find a livestream, timetable, activities and interaction with other visitors.<br>
+                        More information about this event can be found at <u><router-link class="text-white text-decoration-none" to="/projects">my projects</router-link></u>.
                     </p>
                 </div>
             </div>

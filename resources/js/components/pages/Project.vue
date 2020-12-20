@@ -12,7 +12,7 @@
                         <div class="text-break content-item">
                             {{ project.languages }} <br>
                             <br>
-                            <a v-if="(project.link != '-')" v-bind:href="project.link">{{ project.link }}</a>
+                            <a target="_blank" v-if="(project.link != '-')" v-bind:href="project.link">{{ project.link }}</a>
                         </div>
                     </div>
                     <div class="col-12">
