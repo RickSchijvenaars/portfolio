@@ -2023,6 +2023,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {};
@@ -2455,7 +2456,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".flip-card[data-v-01d54f10] {\n  background-color: transparent;\n  height: 400px;\n  -webkit-perspective: 1000px;\n          perspective: 1000px;\n}\n.flip-card-inner[data-v-01d54f10] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: -webkit-transform 0.6s;\n  transition: transform 0.6s;\n  transition: transform 0.6s, -webkit-transform 0.6s;\n  -webkit-transform-style: preserve-3d;\n          transform-style: preserve-3d;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n}\n.flip-card-front[data-v-01d54f10] {\n  color: black;\n  z-index: 2;\n  height: 100%;\n  background-position: center;\n  background-size: cover;\n}\n.flip-card-front-overlay[data-v-01d54f10] {\n  background-color: rgba(0, 0, 0, 0.4);\n}\n.flip-card-back[data-v-01d54f10] {\n  padding: 20px;\n  background-color: #1E1E1E;\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n  z-index: 1;\n  color: white;\n}\n.flip-card-front[data-v-01d54f10], .flip-card-back[data-v-01d54f10] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n.flip-card-title[data-v-01d54f10] {\n  color: #E1E1E1;\n}\n.flip-card-description[data-v-01d54f10] {\n  color: #9B9B9B;\n}\n.flip-card:hover .flip-card-inner[data-v-01d54f10] {\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n}\n.imagecontainer[data-v-01d54f10] {\n  overflow: hidden;\n  padding: 0 !important;\n  margin: 10px !important;\n  position: relative;\n  height: 300px;\n  background-position: center;\n  background-size: cover;\n  border: 2px solid black;\n}\n.projects-title[data-v-01d54f10] {\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 60px;\n  align-items: center;\n  font-size: 1.5rem;\n  padding-left: 0.8rem;\n}\n@media only screen and (min-width: 992px) {\n.content-margin[data-v-01d54f10] {\n    margin-top: 60px;\n}\n}", ""]);
+exports.push([module.i, ".flip-card[data-v-01d54f10] {\n  background-color: transparent;\n  height: 400px;\n  -webkit-perspective: 1000px;\n          perspective: 1000px;\n}\n.flip-card-inner[data-v-01d54f10] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: -webkit-transform 0.6s;\n  transition: transform 0.6s;\n  transition: transform 0.6s, -webkit-transform 0.6s;\n  -webkit-transform-style: preserve-3d;\n          transform-style: preserve-3d;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n}\n.flip-card-front[data-v-01d54f10] {\n  color: black;\n  z-index: 2;\n  height: 100%;\n  background-position: center;\n  background-size: cover;\n}\n.flip-card-front-overlay[data-v-01d54f10] {\n  background-color: rgba(0, 0, 0, 0.1);\n}\n.flip-card-back[data-v-01d54f10] {\n  padding: 20px;\n  background-color: #1E1E1E;\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n  z-index: 1;\n  color: white;\n}\n.flip-card-front[data-v-01d54f10], .flip-card-back[data-v-01d54f10] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n}\n.flip-card-title[data-v-01d54f10] {\n  color: #E1E1E1;\n}\n.flip-card-description[data-v-01d54f10] {\n  color: #9B9B9B;\n}\n.flip-card:hover .flip-card-inner[data-v-01d54f10] {\n  -webkit-transform: rotateY(180deg);\n          transform: rotateY(180deg);\n}\n.imagecontainer[data-v-01d54f10] {\n  overflow: hidden;\n  padding: 0 !important;\n  margin: 10px !important;\n  position: relative;\n  height: 300px;\n  background-position: center;\n  background-size: cover;\n  border: 2px solid black;\n}\n.projects-title[data-v-01d54f10] {\n  position: absolute;\n  left: 0;\n  top: 0;\n  height: 60px;\n  align-items: center;\n  font-size: 1.5rem;\n  padding-left: 0.8rem;\n}\n@media only screen and (min-width: 992px) {\n.content-margin[data-v-01d54f10] {\n    margin-top: 60px;\n}\n}", ""]);
 
 // exports
 
@@ -21472,8 +21473,9 @@ var render = function() {
               ],
               1
             ),
+            _vm._v("."),
             _c("br"),
-            _vm._v(".\n                    "),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
               "\n                    Currently I am in the last year of my study. The first half of this year exists of doing a minor. Here I chose to expand my knowledge and to get to know more about a completely different discipline; Dance Industry. "
@@ -21482,6 +21484,8 @@ var render = function() {
             _vm._v(
               "\n                    The choice to do this minor was once again based on one of my biggest hobbies; festivals. I love festivals, the ambiance at parties, people and techno music. Before the coronapandemic you could find me there every weekend."
             ),
+            _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
               "\n                    So.. I started with this minor exactly in the coronapandemic, when there were no more parties allowed.. This was not what I chose this minor for, but my developing skills and knowledge came in handy here, because we had to organize an event online now. For this project I created a website where the event took place, people were sent logincodes and on the website they could find a livestream, timetable, activities and interaction with other visitors."

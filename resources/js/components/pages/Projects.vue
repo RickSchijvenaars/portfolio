@@ -72,7 +72,7 @@ export default {
             background-size: cover;
 
             &-overlay {
-                background-color: rgba(0,0,0,.4);
+                background-color: rgba(0,0,0,.1);
             }
         }
         &-back {

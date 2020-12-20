@@ -29,10 +29,11 @@
                         <br>
                         The second half of my third year I had the chance to choose and create my own project. I wanted to use this opportunity to combine my biggest hobby, the festival culture, with my discipline.<br>
                         I developed my own concept, Craver, a mobile application for festivalvisitors to keep track of the festivals they have been and to meet other people with the same passion. This entire half year I spent working on this concept.<br>
-                        More information about Craver can be found at <u><router-link class="text-white text-decoration-none" to="/projects">my projects</router-link></u><br>.
+                        More information about Craver can be found at <u><router-link class="text-white text-decoration-none" to="/projects">my projects</router-link></u>.<br>
                         <br>
                         Currently I am in the last year of my study. The first half of this year exists of doing a minor. Here I chose to expand my knowledge and to get to know more about a completely different discipline; Dance Industry. <br>
                         The choice to do this minor was once again based on one of my biggest hobbies; festivals. I love festivals, the ambiance at parties, people and techno music. Before the coronapandemic you could find me there every weekend.<br>
+                        <br>
                         So.. I started with this minor exactly in the coronapandemic, when there were no more parties allowed.. This was not what I chose this minor for, but my developing skills and knowledge came in handy here, because we had to organize an event online now. For this project I created a website where the event took place, people were sent logincodes and on the website they could find a livestream, timetable, activities and interaction with other visitors.<br>
                         More information about this event can be found at <u><router-link class="text-white text-decoration-none" to="/projects">my projects</router-link></u>.
                     </p>
